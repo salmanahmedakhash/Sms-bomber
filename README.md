@@ -5,7 +5,7 @@ pkg update && pkg upgrade
 pkg install git python -y
 
 # তোমার GitHub রেপো ক্লোন করো
-git clone https://github.com/salmanahmedakhash/sbai-tool.git
+git clone https://github.com/salmanahmedakhash/sms-bomber.git
 
 # ফোল্ডারে ঢুকো
 cd sbai-tool
