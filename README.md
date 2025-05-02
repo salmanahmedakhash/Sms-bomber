@@ -1,13 +1,14 @@
-# Sms-bomber
-# SBAI Tool
+# Termux আপডেট করে নাও
+pkg update && pkg upgrade
 
-A simple terminal-based Python tool developed by Salman Ahmed.
+# প্রয়োজনীয় প্যাকেজ ইনস্টল করো
+pkg install git python -y
 
-## Features
-- Send OTP requests to Bikroy.com
-- Hacker-style banner and UI
+# তোমার GitHub রেপো ক্লোন করো
+git clone https://github.com/salmanahmedakhash/sbai-tool.git
 
-## Author
-- **Facebook:** https://facebook.com/salman.dev
-- **GitHub:** https://github.com/salmanbhai
-- **YouTube:** https://youtube.com/@salmantech
+# ফোল্ডারে ঢুকো
+cd sbai-tool
+
+# Python টুল রান করো
+python sbai.py
